@@ -1,4 +1,3 @@
-Certainly! Below is an example of a `README.md` file that explains how to set up and use the provided Telegram bot for downloading all media videos.
 
 ---
 
