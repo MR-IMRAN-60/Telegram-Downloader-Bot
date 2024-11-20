@@ -10,16 +10,7 @@ const port = process.env.PORT || 8080;
 
 // express 
 app.get('/', (req, res) => {
-  res.setHeader('Content-Type', 'application/json');
-  const data = {
-    status: 'true',
-    message: 'Bot Successfully Activated!',
-    author: 'Mohammed Imran'
-  };
-  const result = {
-    response: data
-  };
-  res.send(JSON.stringify(result, null, 2));
+    res.sendFile(path.join(__dirname, 'public', 'imran.html'));
 });
 
 function listenOnPort(port) {
